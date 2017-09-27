@@ -1,0 +1,11 @@
+uses crt;
+var
+  p,l:integer;
+  hasil:integer;
+begin
+     write('masukan panjang=');readln(p);
+     write('masukan lebar=');readln(l);
+     hasil:=p*l;
+     write('hasil=',hasil);
+readkey;
+end.

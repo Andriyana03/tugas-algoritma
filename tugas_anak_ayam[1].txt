@@ -1,0 +1,26 @@
+progaram anak ayam;
+var
+a:integer;
+begin
+a:=10;
+writeln('anak ayam turunlah',a);
+writeln('mati 1 tinggalah ',a-1);
+writeln('anak ayam turunlah',a-1);
+writeln('mati 1 tinggalah ',a-2);
+writeln('anak ayam turunlah',a-2);
+writeln('mati 1 tinggalah ',a-3);
+writeln('anak ayam turunlah',a-3);
+writeln('mati 1 tinggalah ',a-4);
+writeln('anak ayam turunlah',4);
+writeln('mati 1 tinggalah ',a-5);
+writeln('anak ayam turunlah',a-5);
+writeln('mati 1 tinggalah ',a-6);
+writeln('anak ayam turunlah',a-6);
+writeln('mati 1 tinggalah ',a-7);
+writeln('anak ayam turunlah',a-7);
+writeln('mati 1 tinggalah ',a-8);
+writeln('anak ayam turunlah',a-8);
+writeln('mati 1 tinggalah ',a-9);
+writeln('anak ayam turunlah',a-9);
+write('write 1 tinggalah induknya');
+end
