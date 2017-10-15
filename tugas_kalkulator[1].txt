@@ -1,0 +1,43 @@
+﻿uses crt;
+var
+a,b,hasil :real;
+pilih : integer;
+begin
+writeln('Tugas : kalkulator');
+writeln();
+writeln('Pilih pengoperasian dengan menekan angka');
+writeln('1.Penjumlahan ') ;
+writeln('2.Pengurangan ') ;
+writeln('3.Perkalian   ');
+writeln('4.Pembagian   ');
+writeln();
+write('Silahkan tekan angka : ');readln(pilih);
+writeln();
+case pilih of
+1: begin
+write('nilai a = ');read(a);
+write('nilai b = ');read(b);
+hasil:= a+ b;
+writeln('Hasil = ',hasil:5:2);
+end;
+2: begin
+write('nilai a = ');readln(a);
+write('nilai b = ');readln(b);
+hasil:= a-b;
+writeln('Hasil = ',hasil:5:2);
+end;
+3: begin
+write('nilai a = ');readln(a);
+write('nilai b = ');readln(b);
+hasil:= a*b;
+writeln('Hasil = ',hasil:5:2);
+end;
+4: begin
+write('nilai a = ');readln(a);
+write('nilai b = ');readln(b);
+hasil:= a/b;
+writeln('Hasil = ',hasil:5:2);
+end;
+end;
+readkey;
+end.

@@ -1,0 +1,38 @@
+﻿uses crt;
+var
+alpro,sbo,rti,b_indonesia,pancasila:real ;
+begin
+writeln('Nama  : Andriyana');
+writeln('Prodi : Teknik Informatika');
+writeln('Tugas : Penilaian');
+writeln('==================================================');
+writeln('nilai mata kuliah: ');
+write('nilai ALPRO      : ');readln(alpro);
+write('nilai SBO        : ');readln(sbo);
+write('nilai RTI        : ');readln(rti);
+write('nilai B.INDONESIA: ');readln(b_indonesia);
+write('nilai PANCASILA  : ');readln(pancasila);
+writeln();
+writeln('Mata kuliah yang harus di remedial:');
+if alpro<70 then
+begin 
+writeln('-ALPRO')
+end;
+if sbo<70 then
+begin
+writeln('-SBO')
+end;
+if rti<70 then
+begin
+writeln('-RTI')
+end;
+if b_indonesia<70 then
+begin
+writeln('-B INDONESIA')
+end;
+if pancasila<70 then
+begin
+writeln('-PANCASILA');
+end;
+readkey;
+end.

@@ -1,0 +1,32 @@
+uses crt;
+var
+Y,N,b,b1: char;
+HN,HA,HD: real;
+CD,CM,a,a1: boolean;
+begin
+clrscr;
+writeln('Nama  : Andriyana');
+writeln('Prodi : IF');
+writeln('Tugas : Hitung Diskon');
+writeln('=========================');
+Write('harga normal baju :');readln(HN);
+write('Cek Diskon Y /N?  :');read(b);
+a:= 'Y'=b;
+Writeln('diskon :',a);
+Write('Cek Member Y/N?   :');readln(b1);
+a1:= 'Y' = (b1) ;
+writeln('Member :',a1);
+writeln('=========================');
+if a and a1 then
+HD:= (HN * 0.25)
+else
+if a1 and not a then
+HD:=(HN*0.05)
+else
+if not a1 and a then
+HD:= (HN*0.20)
+else
+if not a and not a1 then
+HD:=(HN*0.0);
+HA:=HN-HD;
+WriteLn('total   
