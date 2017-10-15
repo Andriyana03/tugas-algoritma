@@ -29,4 +29,6 @@ else
 if not a and not a1 then
 HD:=(HN*0.0);
 HA:=HN-HD;
-WriteLn('total   
+WriteLn('total   : ',HA);
+readkey;
+end.
